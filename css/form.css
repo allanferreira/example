@@ -1,0 +1,44 @@
+.form label,
+.form input,
+.form button {
+    font-size: 18px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.form input,
+.form button {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 13px;
+}
+
+.form input {
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.form button {
+    background: #00f;
+    color: #fff;
+}
+
+.form button:hover {
+    background: #000099;
+    color: #fff;
+}
+
+.form__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.form__footer a {
+    color: #00f;
+}

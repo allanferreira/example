@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS Example</title>
+        <link rel="stylesheet" href="./app.css" />
+    </head>
+    <body>
+        <div class="page page--signin">
+            <div class="page__container">
+                <h1 class="page__title">Registrar-se</h1>
+                <form class="form form-userRegister">
+                    <label for="email">Email</label>
+                    <input
+                        id="email"
+                        placeholder="email@example.com"
+                        type="text"
+                    />
+                    <label for="password">Senha</label>
+                    <input
+                        id="password"
+                        placeholder="••••••"
+                        type="password"
+                        class="password"
+                    />
+                    <label for="password-repeat" class="password-repeat">
+                        Repetir senha</label
+                    >
+                    <input
+                        id="password-repeat"
+                        placeholder="••••••"
+                        type="password"
+                    />
+                    <div class="form__footer">
+                        <button>Criar conta</button>
+                        <a href="./index.html">Voltar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script type="module" src="./app.js"></script>
+    </body>
+</html>

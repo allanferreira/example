@@ -1,0 +1,3 @@
+const pass = document.querySelector('.form-userRegister .password')
+const passRepeat = document.querySelector('.form-userRegister .password-repeat')
+// ...

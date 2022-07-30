@@ -1,0 +1,36 @@
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.page--signin {
+    height: 100vh;
+    align-items: center;
+}
+
+.page__container {
+    width: 400px;
+}
+
+.page__container__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+}
+
+.page__container__footer a {
+    font-size: 14px;
+    color: #666;
+}
+
+.page__container__footer a:hover {
+    text-decoration: underline;
+}
+
+.page__title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
